@@ -1,0 +1,7 @@
+users:
+  - username: adib
+    role: admin
+  - username: amin
+    role: readonly
+  - username: abir
+    role: ec2allaccess
