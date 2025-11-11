@@ -1,7 +1,13 @@
 users:
   - username: adib
-    role: admin
+    roles: [
+      AmazonEC2FullAccess
+    ]
   - username: amin
-    role: readonly
+    roles: [
+      AmazonS3ReadOnlyAccess
+    ]
   - username: abir
-    role: ec2allaccess
+    roles: [
+      AmazonS3ReadOnlyAccess, AmazonEC2FullAccess
+    ]
